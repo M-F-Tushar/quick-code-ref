@@ -25,11 +25,20 @@ Perfect when you want to deep-dive into one language:
 
 ### 📖 Browse by Topic
 Perfect when you want to compare languages side-by-side:
-- **[Variables & Data Types](/topics/variables/)** - Declarations, types, and conversions
+- **[Variables & Data Types](/topics/variables/)** - Declarations, types, constants, scope
+- **[Operators & Expressions](/topics/operators/)** - Arithmetic, logical, bitwise, comparison
 - **[Control Flow](/topics/control-flow/)** - If/else statements and conditionals
 - **[Loops](/topics/loops/)** - For loops, iteration, break/continue
-- **[Functions](/topics/functions/)** - Declaration, parameters, return values
+- **[Functions](/topics/functions/)** - Declaration, parameters, return values, recursion
 - **[Arrays](/topics/arrays/)** - Declaration, access, iteration, and operations
+- **[Strings & String Operations](/topics/strings/)** - Manipulation, searching, formatting
+- **[Collections](/topics/collections/)** - Lists, sets, maps, and operations
+- **[Object-Oriented Programming](/topics/oop/)** - Classes, inheritance, polymorphism
+- **[File I/O & Input/Output](/topics/file-io/)** - Console I/O, file operations
+- **[Error Handling & Exceptions](/topics/error-handling/)** - Try-catch, throwing exceptions
+- **[Pointers & Memory Management](/topics/pointers-memory/)** - Pointers (C/C++), GC (Java/Python/JS)
+- **[Functional Programming Features](/topics/functional/)** - Map, filter, reduce, closures
+- **[Regular Expressions](/topics/regex/)** - Pattern matching, validation, replacement
 
 ## 🗂️ Repository Structure
 
@@ -177,43 +186,67 @@ Any unique consideration for this language
 
 ## ✅ Topics Covered
 
-### Currently Available
-- [x] **Variables & Data Types** - Integers, strings, booleans, type conversion, constants
-- [x] **Control Flow (If/Else)** - Conditionals, if-else chains, ternary operators
-- [x] **Loops (For Loops)** - Basic loops, array iteration, nested loops, break/continue
-- [x] **Functions** - Declaration, parameters, return values, recursion examples
-- [x] **Arrays** - Declaration, access, iteration, common operations
-
-### Coming Soon
-- [ ] **Strings & String Operations** - Manipulation, searching, formatting
-- [ ] **Object-Oriented Programming** - Classes, objects, inheritance, polymorphism
-- [ ] **File I/O** - Reading and writing files
-- [ ] **Error Handling** - Try-catch, exceptions, error management
-- [ ] **Data Structures** - Linked lists, stacks, queues, trees
-- [ ] **Pointers & Memory Management** - C/C++ specific memory operations
-- [ ] **Regular Expressions** - Pattern matching and text processing
+### All Topics Covered ✅
+- [x] **Variables & Data Types** - Declarations, types, constants, scope
+- [x] **Operators & Expressions** - Arithmetic, logical, bitwise, comparison
+- [x] **Control Flow** - If/else, switch statements, ternary operators
+- [x] **Loops** - For, while, do-while, break/continue
+- [x] **Functions & Methods** - Declaration, parameters, recursion, lambdas
+- [x] **Arrays & Collections** - Arrays, lists, sets, maps, operations
+- [x] **Strings & String Operations** - Manipulation, searching, formatting
+- [x] **Object-Oriented Programming** - Classes, inheritance, polymorphism
+- [x] **File I/O & Input/Output** - Console I/O, file operations
+- [x] **Error Handling & Exceptions** - Try-catch, throwing exceptions
+- [x] **Pointers & Memory Management** - Pointers (C/C++), GC (Java/Python/JS)
+- [x] **Functional Programming Features** - Map, filter, reduce, closures
+- [x] **Regular Expressions** - Pattern matching, validation, replacement
 
 ## 🗺️ Quick Access Table
 
 Click any cell to jump directly to that topic in that language:
 
-| Language | Variables | Control Flow | Loops | Functions | Arrays |
-|----------|-----------|--------------|-------|-----------|--------|
-| **C** | [📄](/C/variables.md) | [📄](/C/control-flow.md) | [📄](/C/loops.md) | [📄](/C/functions.md) | [📄](/C/arrays.md) |
-| **C++** | [📄](/CPP/variables.md) | [📄](/CPP/control-flow.md) | [📄](/CPP/loops.md) | [📄](/CPP/functions.md) | [📄](/CPP/arrays.md) |
-| **Java** | [📄](/Java/variables.md) | [📄](/Java/control-flow.md) | [📄](/Java/loops.md) | [📄](/Java/functions.md) | [📄](/Java/arrays.md) |
-| **Python** | [📄](/Python/variables.md) | [📄](/Python/control-flow.md) | [📄](/Python/loops.md) | [📄](/Python/functions.md) | [📄](/Python/arrays.md) |
-| **JavaScript** | [📄](/JavaScript/variables.md) | [📄](/JavaScript/control-flow.md) | [📄](/JavaScript/loops.md) | [📄](/JavaScript/functions.md) | [📄](/JavaScript/arrays.md) |
+| Language | Variables | Operators | Control Flow | Loops | Functions | Arrays |
+|----------|-----------|-----------|--------------|-------|-----------|--------|
+| **C** | [📄](/C/variables.md) | [📄](/C/operators.md) | [📄](/C/control-flow.md) | [📄](/C/loops.md) | [📄](/C/functions.md) | [📄](/C/arrays.md) |
+| **C++** | [📄](/CPP/variables.md) | [📄](/CPP/operators.md) | [📄](/CPP/control-flow.md) | [📄](/CPP/loops.md) | [📄](/CPP/functions.md) | [📄](/CPP/arrays.md) |
+| **Java** | [📄](/Java/variables.md) | [📄](/Java/operators.md) | [📄](/Java/control-flow.md) | [📄](/Java/loops.md) | [📄](/Java/functions.md) | [📄](/Java/arrays.md) |
+| **Python** | [📄](/Python/variables.md) | [📄](/Python/operators.md) | [📄](/Python/control-flow.md) | [📄](/Python/loops.md) | [📄](/Python/functions.md) | [📄](/Python/arrays.md) |
+| **JavaScript** | [📄](/JavaScript/variables.md) | [📄](/JavaScript/operators.md) | [📄](/JavaScript/control-flow.md) | [📄](/JavaScript/loops.md) | [📄](/JavaScript/functions.md) | [📄](/JavaScript/arrays.md) |
+
+| Language | Strings | Collections | OOP | File I/O | Error Handling | Pointers/Memory |
+|----------|---------|-------------|-----|----------|----------------|-----------------|
+| **C** | [📄](/C/strings.md) | [📄](/C/collections.md) | [📄](/C/oop.md) | [📄](/C/file-io.md) | [📄](/C/error-handling.md) | [📄](/C/pointers-memory.md) |
+| **C++** | [📄](/CPP/strings.md) | [📄](/CPP/collections.md) | [📄](/CPP/oop.md) | [📄](/CPP/file-io.md) | [📄](/CPP/error-handling.md) | [📄](/CPP/pointers-memory.md) |
+| **Java** | [📄](/Java/strings.md) | [📄](/Java/collections.md) | [📄](/Java/oop.md) | [📄](/Java/file-io.md) | [📄](/Java/error-handling.md) | [📄](/Java/pointers-memory.md) |
+| **Python** | [📄](/Python/strings.md) | [📄](/Python/collections.md) | [📄](/Python/oop.md) | [📄](/Python/file-io.md) | [📄](/Python/error-handling.md) | [📄](/Python/pointers-memory.md) |
+| **JavaScript** | [📄](/JavaScript/strings.md) | [📄](/JavaScript/collections.md) | [📄](/JavaScript/oop.md) | [📄](/JavaScript/file-io.md) | [📄](/JavaScript/error-handling.md) | [📄](/JavaScript/pointers-memory.md) |
+
+| Language | Functional | Regex |
+|----------|------------|-------|
+| **C** | [📄](/C/functional.md) | [📄](/C/regex.md) |
+| **C++** | [📄](/CPP/functional.md) | [📄](/CPP/regex.md) |
+| **Java** | [📄](/Java/functional.md) | [📄](/Java/regex.md) |
+| **Python** | [📄](/Python/functional.md) | [📄](/Python/regex.md) |
+| **JavaScript** | [📄](/JavaScript/functional.md) | [📄](/JavaScript/regex.md) |
 
 ### Topic-Based Navigation
 
 | Topic | C | C++ | Java | Python | JavaScript |
 |-------|---|-----|------|--------|------------|
 | **Variables** | [📄](/topics/variables/c-variables.md) | [📄](/topics/variables/cpp-variables.md) | [📄](/topics/variables/java-variables.md) | [📄](/topics/variables/python-variables.md) | [📄](/topics/variables/js-variables.md) |
+| **Operators** | [📄](/topics/operators/c-operators.md) | [📄](/topics/operators/cpp-operators.md) | [📄](/topics/operators/java-operators.md) | [📄](/topics/operators/python-operators.md) | [📄](/topics/operators/js-operators.md) |
 | **Control Flow** | [📄](/topics/control-flow/c-control-flow.md) | [📄](/topics/control-flow/cpp-control-flow.md) | [📄](/topics/control-flow/java-control-flow.md) | [📄](/topics/control-flow/python-control-flow.md) | [📄](/topics/control-flow/js-control-flow.md) |
 | **Loops** | [📄](/topics/loops/c-loops.md) | [📄](/topics/loops/cpp-loops.md) | [📄](/topics/loops/java-loops.md) | [📄](/topics/loops/python-loops.md) | [📄](/topics/loops/js-loops.md) |
 | **Functions** | [📄](/topics/functions/c-functions.md) | [📄](/topics/functions/cpp-functions.md) | [📄](/topics/functions/java-functions.md) | [📄](/topics/functions/python-functions.md) | [📄](/topics/functions/js-functions.md) |
 | **Arrays** | [📄](/topics/arrays/c-arrays.md) | [📄](/topics/arrays/cpp-arrays.md) | [📄](/topics/arrays/java-arrays.md) | [📄](/topics/arrays/python-arrays.md) | [📄](/topics/arrays/js-arrays.md) |
+| **Strings** | [📄](/topics/strings/c-strings.md) | [📄](/topics/strings/cpp-strings.md) | [📄](/topics/strings/java-strings.md) | [📄](/topics/strings/python-strings.md) | [📄](/topics/strings/js-strings.md) |
+| **Collections** | [📄](/topics/collections/c-collections.md) | [📄](/topics/collections/cpp-collections.md) | [📄](/topics/collections/java-collections.md) | [📄](/topics/collections/python-collections.md) | [📄](/topics/collections/js-collections.md) |
+| **OOP** | [📄](/topics/oop/c-oop.md) | [📄](/topics/oop/cpp-oop.md) | [📄](/topics/oop/java-oop.md) | [📄](/topics/oop/python-oop.md) | [📄](/topics/oop/js-oop.md) |
+| **File I/O** | [📄](/topics/file-io/c-file-io.md) | [📄](/topics/file-io/cpp-file-io.md) | [📄](/topics/file-io/java-file-io.md) | [📄](/topics/file-io/python-file-io.md) | [📄](/topics/file-io/js-file-io.md) |
+| **Error Handling** | [📄](/topics/error-handling/c-error-handling.md) | [📄](/topics/error-handling/cpp-error-handling.md) | [📄](/topics/error-handling/java-error-handling.md) | [📄](/topics/error-handling/python-error-handling.md) | [📄](/topics/error-handling/js-error-handling.md) |
+| **Pointers/Memory** | [📄](/topics/pointers-memory/c-pointers-memory.md) | [📄](/topics/pointers-memory/cpp-pointers-memory.md) | [📄](/topics/pointers-memory/java-pointers-memory.md) | [📄](/topics/pointers-memory/python-pointers-memory.md) | [📄](/topics/pointers-memory/js-pointers-memory.md) |
+| **Functional** | [📄](/topics/functional/c-functional.md) | [📄](/topics/functional/cpp-functional.md) | [📄](/topics/functional/java-functional.md) | [📄](/topics/functional/python-functional.md) | [📄](/topics/functional/js-functional.md) |
+| **Regex** | [📄](/topics/regex/c-regex.md) | [📄](/topics/regex/cpp-regex.md) | [📄](/topics/regex/java-regex.md) | [📄](/topics/regex/python-regex.md) | [📄](/topics/regex/js-regex.md) |
 
 ## 🤝 Contributing Guidelines
 
